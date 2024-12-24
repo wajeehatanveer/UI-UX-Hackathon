@@ -1,0 +1,183 @@
+
+{/* 1st Navbar */}
+<div className="  w-full h-[203px]  ">
+<div className="sticky flex w-full h-[45px] bg-[#272343]  ">
+<p className="flex text-[13px] font-[400] text-[#FFFFFF] pt-[14px] pr-[288px] pl-[215px] pb-[14px]"><Image src={Check1} width={15} height={18} alt='check' className="mr-[4px] pt-1" />Free shipping on all orders over $50 </p>
+
+     <div className=" flex text-[12px]  pt-[14px] pb-[1px] text-[white] gap-[px]">
+    <ul className="flex pl-[80px] gap-10">
+   
+    <Link href="" className="">Eng</Link>
+    <Link href="" className="">Faqs</Link>
+     <Link href="" className="">Need Help</Link> 
+   
+    </ul>
+    </div>      
+</div>
+
+{/* 2nd Navbar */}
+<div className=" w-full h-[65px]  pt-[11px] pb-[20px] pl-[205px] mr-[230px] bg-[#F0F2F3] justify-between">
+    <div className=" flex gap-1 -mb-5">
+    <Image src={Logo} width={40} height={40} alt="Logo" className="mb-[12px] ml-[6.62px] mt-1"/>
+    <h1 className="text-[#272343] text-[22px] mt-2 font-medium pr-[350px]  ">Comforty</h1>
+    <p className=" text-center flex w-[150px] h-[44px] pt-[11px] pr-[7px] pl-[7px] ml-[210px] pb-[11px] gap-2 bg-[#FFFFFF] rounded-[8px] "><Image src={Buy2} width={22} height={22} alt="Buy2"  />cart<Image src={No} width={20} height={15} alt="No.png" /></p>
+    </div> 
+</div>
+
+{/* 3rd Navbar */}
+<div className="  flex w-full drop-shadow-sm h-[51px] pt-[14px] pb-[14px] pl-[250px] pr-[249px] bg-[#FFFFFF] justify-between">
+    <ul className="flex gap-[20px] text-[14px] text-[#636270] font-medium">
+        <li>Home</li>
+        <li>Shop</li>
+        <li>Products</li>
+        <li>Pages</li>
+        <li>About</li>
+    </ul>
+    <div className="h-[15px] w-[full] gap-2 ml- ">
+    <ul className="flex  ">
+    <li className="text-[14px] text-[#636270] font-normal">Contact:</li>
+    <li className="text-[14px] text-[#636270] font-medium">(808) 555-0111</li>
+    </ul>
+    </div>
+ 
+</div>
+
+
+
+
+
+
+
+
+
+<div className='w-[] h-[90px] mt-5 gap-10 items-center ml-[215px] mr-[215px] '>
+            <div className="flex justify-between">
+          <Image src={Zapier} width={50} height={10} alt="ZAPIER" className="h-7 mt-1 "></Image>
+          <Image src={Pipedrive} width={60} height={10} alt="Pipedrive" className="h-5 mt-3"></Image>
+          <Image src={CIBBank} width={65} height={68} alt="cibbank" className="h-10 mt-1"></Image>
+          <Image src={Z} width={60} height={68} alt="z" className="ml-[] -mt-1  "></Image>
+          <Image src={BurnBroast} width={50} height={68} alt="burnbroast" className="-mt-2"></Image>
+          <Image src={Pandadoc} width={75} height={58} alt="pandadoc" className=" h-5 mt-4"></Image>
+          <Image src={Moz} width={50} height={68} alt="MOZ" className="ml] justify-end h-5 mt-4"></Image>
+          </div>
+          </div>
+
+
+          {/* 3rd Herosection */}
+
+          <div className=" w-[] h-[241px]  mt-5 ml-[215px] mr-[215px] ">
+          <h1 className="text-[#272343] text-[22px] font-medium">Featured Products</h1>
+          <div className="flex gap-3">
+          <Image src={Logo1} width={312} height={312} alt="1" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo2} width={312} height={312} alt="2" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo3} width={312} height={312} alt="3" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo4} width={312} height={312} alt="4" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          </div>
+         <div className="flex ml-1 mt-2">
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20<del className="text-[8px] text-[#9A9CAA] font-medium ml-1">$30</del></span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          </div>
+          </div> 
+
+            {/* 4 Herosection  */}
+          <div className=" w-[] ml-[249px] mr-[241px]  h-[288px] mt-[47px] bg-[#9393eb]">
+          <h1 className="text-[#272343] text-[22px] font-medium">Top categories</h1>
+          <div className="flex gap-3">
+          <Image src={img2} width={190} height={200} alt="2" className="h-[230px] w-[230px] mt-5 rounded-md"></Image>
+          <Image src={img3} width={312} height={312} alt="3" className="h-[230px] w-[230px] mt-5 rounded-md"></Image>
+          <Image src={img4} width={312} height={312} alt="4" className="h-[230px] w-[230px] mt-5 rounded-md"></Image>
+          </div>
+          </div>
+
+
+          
+          {/* 5 Herosection  */}
+
+<div className=" w-[]  ml-[249px] mr-[241px] h-[448px] mt-[117px] bg-[#e5e5a0]">
+ <Image src={Logo3} width={312} height={312} alt="1" className="h-[340px] w-[370px] mt-5 pl-14"></Image> 
+ <div className="flex  gap-3">
+<Image src={Logo4} width={312} height={312} alt="4" className="h-[170px] w-[170px] "></Image>
+<Image src={Logo6} width={312} height={312} alt="6" className="h-[170px] w-[170px]   "></Image>
+<div className="flex">
+<Image src={Logo1} width={312} height={312} alt="1" className="h-[170px] w-[170px]  -m "></Image>
+<Image src={Logo1} width={312} height={312} alt="1" className="h-[170px] w-[170px] mt-[] "></Image>
+</div>
+  </div>
+  </div>
+
+
+  {/* 6 Herosection   */}
+
+
+            <div className=" w-[]  h-[519px] ml-[249px] mr-[241px] mt-[117px] bg-[pink]">
+            <h1 className="text-[#272343] text-[22px] font-medium mb-5 text-center">Our Products</h1>
+            <div className="flex gap-3">
+          <Image src={Logo1} width={312} height={312} alt="1" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo2} width={312} height={312} alt="2" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo3} width={312} height={312} alt="3" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo4} width={312} height={312} alt="4" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          </div>
+          <div className="flex ml-1 mt-2">
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p >Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20<del className="text-[8px] text-[#9A9CAA] font-medium ml-1">$30</del></span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3 ">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          </div> 
+          
+
+          <div className="flex gap-3 -mt-5">
+          <Image src={img2} width={312} height={312} alt="5" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo6} width={312} height={312} alt="6" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo7} width={312} height={312} alt="7" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          <Image src={Logo1} width={312} height={312} alt="1" className="h-[170px] w-[170px] mt-5 rounded-md"></Image>
+          </div>
+          <div className="flex ml-1 mt-2">
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3">
+          <p> Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20<del className="text-[8px] text-[#9A9CAA] font-medium ml-1">$30</del></span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          <div  className=" w-[256px] h-[51px] text-[11px] font-normal text-[#007580] gap-3">
+          <p>Library Stool Chair</p>
+          <span className="font-semibold text-[10px] text-[#272343]">$20</span>
+          </div>
+          </div>
+              <Footer />
+              </div>
+
+
+              <div className="bg-[#000000B2] absolute bottom-[5px]" >
+              <span className="text-[#FFFFFF] text-[10px]">3,584 Products</span>
