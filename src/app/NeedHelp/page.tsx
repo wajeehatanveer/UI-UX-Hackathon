@@ -35,7 +35,7 @@ const page = () => {
      </div>
 
       <div className='ml-28'>
-     <label for='email' className='font-semibold text-[12px] ' >Your name</label> <br />
+     <label className='font-semibold text-[12px] ' >Your name</label> <br />
      <input type="name" id="name" placeholder="&nbsp;&nbsp;Abc" required className='rounded-md h-[40px] text-[11px] w-[250px] border-2 border-[#9F9F9F] text-[#9F9F9F] mt-3' />
      </div>
      </div>
@@ -52,7 +52,7 @@ const page = () => {
      </div>
 
       <div className='ml-28'>
-     <label for="email" className='font-semibold text-[12px] ' >Email address:</label> <br />
+     <label  className='font-semibold text-[12px] ' >Email address:</label> <br />
      <input type="email" id="email" placeholder="&nbsp;&nbsp;Abc@def.com" required className='rounded-md h-[40px] text-[11px] w-[250px] border-2 border-[#9F9F9F] text-[#9F9F9F] mt-3' />
      </div>
      </div>
@@ -69,8 +69,8 @@ const page = () => {
      </div>
 
       <div className='ml-28'>
-     <label for ="email" className='font-semibold text-[12px] ' >Subject</label> <br />
-     <input type="email" id="email" placeholder="&nbsp;&nbsp;This is an optional" required className='rounded-md h-[40px] text-[11px] w-[250px] border-2 border-[#9F9F9F] text-[#9F9F9F] mt-3' />
+     <label  className='font-semibold text-[12px] ' >Subject</label> <br />
+     <input type="subject" id="subject" placeholder="&nbsp;&nbsp;This is an optional" required className='rounded-md h-[40px] text-[11px] w-[250px] border-2 border-[#9F9F9F] text-[#9F9F9F] mt-3' />
      </div>
      </div>
      </div>  
@@ -83,8 +83,8 @@ const page = () => {
      </div>
 
       <div className='ml-28'>
-     <label for="email" className='font-semibold text-[12px] ' >Message</label> <br />
-     <input type="email" id="email" placeholder="&nbsp;&nbsp;Hi! i’d like to ask about" required className='rounded-md  h-[65px] text-[11px] w-[250px] border-2 border-[#9F9F9F] text-[#9F9F9F] mt-3' />
+     <label  className='font-semibold text-[12px] ' >Message</label> <br />
+     <input type="Message" id="Message" placeholder="&nbsp;&nbsp;Hi! id like to ask about" required className='rounded-md  h-[65px] text-[11px] w-[250px] border-2 border-[#9F9F9F] text-[#9F9F9F] mt-3' />
      </div>
      </div>
       
